@@ -443,9 +443,7 @@ class AIAssistant:
         user_input = ""
         while user_input != "bye" and user_input != "exit":
             user_input = input("\033[32mYou (type bye to quit): ")
-            message = self.create_response(
-            thread_id=thread.id, content=user_input, message_files=file_ids
-            )
+            message = self.create_response(thread_id=thread.id, content=user_input, message_files=file_ids)
             print(f"\033[33m{message}")
         if self.auto_delete:
             if file_ids:
