@@ -2,4 +2,4 @@ openai==2.6.0
 yaspin==3.3.0
 requests==2.33.1
 pydantic==2.12.4
-sqlalchemy==2.0.47
+sqlalchemy==2.0.49
