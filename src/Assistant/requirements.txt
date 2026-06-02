@@ -1,4 +1,4 @@
-openai==2.38.0
+openai==2.40.0
 yaspin==3.4.0
 requests==2.34.2
 pydantic==2.13.4
